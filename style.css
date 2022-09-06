@@ -58,3 +58,14 @@ body{
 .displayNumber{
     text-align: right;
 }
+
+@keyframes animasi{
+    0% {
+        transform: rotateX(35deg);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
